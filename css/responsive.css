@@ -1,0 +1,46 @@
+@media screen and (max-width: 1200px){
+    .form-titre{text-align: center ;}
+    #formulaire img{ display:none;}
+    #formulaire{width: 100%;}
+    body{background-color: violet;}
+}
+
+
+@media screen and (max-width: 990px){
+    body{background-color: red;}
+    nav ul li{
+        display:none;
+    }
+    ul #burger{ display: block; }
+}
+
+@media screen and (max-width: 768px){
+    body{background-color: green;}
+    #section1{
+        text-align: center;
+    }
+    #section1 article{
+        margin: 0;
+    }
+    h1{font-size: 50px; padding-left: 0;}
+    .plat{margin-top : 20px;}
+    .maki{
+        margin-top : 20px;
+        width : 100%;
+    }
+    #section3 article{
+        margin : 0;
+    }
+    .photos-hors-champ img {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 576px){
+    h1{font-size: 30px; padding-left: 0;}
+}
+
+@media screen and (max-width: 320px){
+
+}
